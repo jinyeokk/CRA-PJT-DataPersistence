@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir C:\\\\reviewer\\\\json)",
+      "PowerShell(New-Item *)",
+      "PowerShell(cd \"C:\\\\reviewer\\\\json\"; $env:PYTHONUTF8=\"1\"; .\\\\.venv\\\\Scripts\\\\python.exe test_crud.py; Write-Host \"\"; Write-Host \"-- JSON 파일 내용 \\(Update 후, Delete 전\\) --\")",
+      "PowerShell(cd \"C:\\\\reviewer\\\\json\"; $env:PYTHONUTF8=\"1\"; .\\\\.venv\\\\Scripts\\\\python.exe test_crud.py)"
+    ]
+  }
+}
